@@ -104,3 +104,9 @@ footer {
   height: 30px;
   border-radius: 250px;
 }
+/* responsive */
+@media only screen and (max-width: 600px) {
+  #about {
+    padding-left: 100px;
+  }
+}
