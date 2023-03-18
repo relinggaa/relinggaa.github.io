@@ -2,6 +2,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   overflow-x: hidden;
   max-width: 100%;
+  -webkit-overflow-scrolling: touch;
   /* height: 5000px; */
 }
 /* navbar */
