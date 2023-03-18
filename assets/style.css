@@ -1,6 +1,7 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   overflow-x: hidden;
+  max-width: 100%;
   /* height: 5000px; */
 }
 /* navbar */
