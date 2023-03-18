@@ -1,0 +1,105 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  overflow-x: hidden;
+  /* height: 5000px; */
+}
+/* navbar */
+nav {
+  background-color: #007aff;
+}
+nav .nav-link {
+  color: #ffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1, 5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.navbar-brand {
+  color: #ffff;
+  font-family: "Nunito Sans", sans-serif;
+}
+nav .nav-link:hover {
+  color: #bdcdd6;
+  transition: 2s;
+}
+.navbar-brand:hover {
+  color: #bdcdd6;
+  transition: 2s;
+}
+.login {
+  margin-top: 6px;
+  border-radius: 20px;
+  width: 100px;
+}
+.login:hover {
+  background-color: #e68900;
+  color: #ffff;
+  transition: 2s;
+}
+/* home */
+#home {
+  background-color: #007aff;
+  margin-top: -10px;
+}
+#gambarhome {
+  width: 500px;
+  height: 500px;
+}
+#gambarhomemobile {
+  width: 500px;
+  height: 500px;
+}
+.buttonhome {
+  background-color: #e68900;
+  color: #ffff;
+}
+.buttonhome:hover {
+  background-color: #895712;
+  transition: 2s;
+}
+
+/* ABOUT */
+#about {
+  margin-top: -10px;
+  background-color: #f5faff;
+  letter-spacing: 0, 5px;
+}
+.text-about {
+  color: #29384e;
+}
+#gambarabout {
+  width: 100px;
+}
+#gambarabout1 {
+  width: 150px;
+  height: 100px;
+}
+.gelembung {
+  padding: 0px;
+}
+/* project */
+#project {
+  color: #29384e;
+}
+.buttonproject {
+  background-color: #007aff;
+  color: #fff;
+}
+.buttonproject:hover {
+  background-color: #144a84;
+  color: #ffff;
+  transition: 2s;
+}
+#contact {
+  color: #29384e;
+  background-color: #f5faff;
+}
+footer {
+  background-color: #007aff;
+  color: #ffff;
+  margin-top: -10px;
+}
+.gambarfooter {
+  height: 30px;
+  border-radius: 250px;
+}

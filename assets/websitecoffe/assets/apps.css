@@ -1,0 +1,57 @@
+body {
+  background: #3c2a21;
+  font-family: "Nunito", sans-serif;
+  /* height: 9000px; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+#navbar {
+  font-size: 1, 7rem;
+  font-weight: bold;
+  position: fixed;
+  z-index: 99999px;
+  background-color: #3c2a21;
+  width: 100%;
+  border: 1px solid #3c2a21;
+}
+#navbar .nav-link {
+  color: #fff;
+}
+#navbar .nav-link:hover {
+  color: #191825;
+  transition: 3s;
+}
+#logonav {
+  font-size: 2rem;
+  color: #fff;
+}
+/* home */
+#gambar1 {
+  border-radius: 65px;
+}
+.bold {
+  font-weight: bolder;
+}
+#home {
+  padding: 150px;
+  /* about */
+}
+#about {
+  padding: 100px;
+}
+#gambar2 {
+  border-radius: 350px;
+}
+#gambar3 {
+  border-radius: 350px;
+}
+#menu {
+  padding: 100px;
+}
+
+/* media query */
+@media screen and (max-width: 600px) {
+  #about {
+    padding: 0px;
+  }
+}
