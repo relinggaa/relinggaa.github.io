@@ -3,10 +3,7 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
-  -o-overflow-scrolling: touch;
-  margin: 0; /* tambahkan margin 0 untuk menghindari margin yang tidak diinginkan */
-  padding: 0; /* tambahkan padding 0 untuk menghindari padding yang tidak diinginkan */
-  height: 100%; /* tambahkan height 100% untuk memastikan body memiliki tinggi penuh pada halaman */
+  scroll-behavior: smooth;
 }
 
 /* navbar */
