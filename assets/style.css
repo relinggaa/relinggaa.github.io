@@ -105,3 +105,13 @@ footer {
   height: 30px;
   border-radius: 250px;
 }
+@media only screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    overflow-x: hidden;
+  }
+}
