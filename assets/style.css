@@ -1,8 +1,6 @@
 body {
   font-family: "Nunito Sans", sans-serif;
-  overflow-x: hidden;
   max-width: 100%;
-  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
 
@@ -44,6 +42,7 @@ nav .nav-link:hover {
   background-color: #007aff;
   margin-top: -10px;
 }
+
 #gambarhome {
   width: 500px;
   height: 500px;
