@@ -108,9 +108,7 @@ footer {
   .fixtop {
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: 99999;
-    width: 100%;
   }
 }
 @media (max-width: 767.98px) {
