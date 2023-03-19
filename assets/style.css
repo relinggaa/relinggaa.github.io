@@ -109,6 +109,7 @@ footer {
     position: fixed;
     top: 0;
     z-index: 99999;
+    width: 100%;
   }
 }
 @media (max-width: 767.98px) {
