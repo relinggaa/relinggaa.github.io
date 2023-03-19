@@ -114,22 +114,22 @@ footer {
     width: 100%;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 767.98px) {
   #home {
     padding-top: 50px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 767.98px) {
   #about {
     padding-top: 50px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 767.98px) {
   #project {
     padding-top: 50px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 767.98px) {
   body {
     overflow-x: hidden;
   }
