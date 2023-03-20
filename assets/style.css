@@ -113,3 +113,10 @@ footer {
     z-index: 9999;
   }
 }
+@media (max-width: 767px) {
+  .padaboutmobile {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.8rem;
+  }
+}
