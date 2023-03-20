@@ -105,6 +105,7 @@ footer {
   height: 30px;
   border-radius: 250px;
 }
+/* responsive */
 @media (max-width: 767px) {
   .fixtop {
     position: fixed;
