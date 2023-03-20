@@ -114,18 +114,24 @@ footer {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   #about {
     padding-top: 20px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   #project {
     padding-top: 20px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 500px) {
   #contact {
-    padding-top: 20px;
+    padding-top: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutmobile {
+    text-align: center;
+    padding-right: 59.2px;
   }
 }
