@@ -113,3 +113,19 @@ footer {
     z-index: 9999;
   }
 }
+
+@media (max-width: 767px) {
+  #about {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #project {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  #contact {
+    padding-top: 20px;
+  }
+}
