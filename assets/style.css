@@ -105,3 +105,11 @@ footer {
   height: 30px;
   border-radius: 250px;
 }
+@media (max-width: 767px) {
+  .fixtop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+}
