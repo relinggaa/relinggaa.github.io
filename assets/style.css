@@ -117,6 +117,6 @@ footer {
   .padaboutmobile {
     display: flex;
     justify-content: center;
-    padding-left: 1.7rem;
+    padding-left: 2rem;
   }
 }
