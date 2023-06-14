@@ -49,7 +49,15 @@
             <a class="nav-link pe-4 d-xl-none" href="#contact">Login</a> 
           </div>
         </div>
-        <button type="button" class="d-none d-xl-block btn btn-outline-light login">Login</button>
+        <div class="dropdown" data-bs-theme="light">
+          <button class="login dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+            Theme
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+            <li><a class="dropdown-item"id="lightmode" href="#">Light Mode</a></li>
+            <li><a class="dropdown-item" id="darkmode" href="#">Dark Mode</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <!-- NAVBAR END -->
@@ -63,7 +71,7 @@
                     <h1>Relingga Aditya</h1>
                     <p class="pt-3 pt-xl-0">Jadi ini adalah website yang membahas portofolio saya,jadi saya ucapkan selamat datang di website ini.dan ini adalah website portofolio pertama yang saya buat</p>
 
-                    <a href="#about" type="button" class="btn btn-lg buttonhome" >Lihat Lebih Lanjut</a>
+                    <a href="#about" id="buttonhome" type="button" class="btn btn-lg buttonhome" >Lihat Lebih Lanjut</a>
                 </div>
                 <div class="	d-none d-sm-flex d-flex justify-content-center ps-5 ">
                   <div class="img-fluid">
@@ -378,5 +386,6 @@
         once: true,
       });
     </script>
+    <script src="script.js"></script>
   </body>
 </html>

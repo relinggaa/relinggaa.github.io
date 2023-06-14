@@ -10,6 +10,9 @@ body {
 nav {
   background-color: #007aff;
 }
+.darknav {
+  background-color: #0f0f0f;
+}
 nav .nav-link {
   color: #ffff;
   font-family: "Nunito Sans", sans-serif;
@@ -32,12 +35,12 @@ nav .nav-link:hover {
 .login {
   margin-top: 6px;
   border-radius: 20px;
-  width: 100px;
+  width: 125px;
 }
 .login:hover {
-  background-color: #e68900;
+  background-color: #d7d2d2;
   color: #ffff;
-  transition: 2s;
+  transition: 1s;
 }
 /* home */
 #home {
