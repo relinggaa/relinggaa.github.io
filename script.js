@@ -37,8 +37,6 @@ darkmode.addEventListener("click", () => {
   contact.style.backgroundColor = "#212529";
   contact.style.color = "#ffff";
   const buttoncontact = document.getElementById("buttoncontact");
-  console.log(buttoncontact);
-  buttoncontact.classList.replace("btn", "btn-primary", "btn", "btn-dark");
 });
 // lightmode
 const lightmode = document.getElementById("lightmode");
