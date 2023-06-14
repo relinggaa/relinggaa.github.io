@@ -36,12 +36,9 @@ nav .nav-link:hover {
   margin-top: 6px;
   border-radius: 20px;
   width: 125px;
+  border: 1px solid #fff;
 }
-.login:hover {
-  background-color: #d7d2d2;
-  color: #ffff;
-  transition: 1s;
-}
+
 /* home */
 #home {
   background-color: #007aff;
@@ -96,6 +93,15 @@ nav .nav-link:hover {
   background-color: #007aff;
   color: #fff;
 }
+.buttonprojectdark {
+  background-color: #0f0f0f;
+  color: #ffff;
+}
+.buttonprojectdark:hover {
+  background-color: #323943;
+  transition: 2s;
+  color: #ffff;
+}
 .buttonproject:hover {
   background-color: #144a84;
   color: #ffff;
@@ -104,6 +110,32 @@ nav .nav-link:hover {
 #contact {
   color: #29384e;
   background-color: #f5faff;
+}
+.buttonlight {
+  background-color: #007aff;
+  color: #ffff;
+  border-radius: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border: solid #007aff;
+}
+.buttondark {
+  background-color: #ffff;
+  color: #0f0f0f;
+  border-radius: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  border: solid #ffff;
+}
+.buttonlight:hover {
+  background-color: #103f70;
+  transition: 2s;
+}
+.buttondark:hover {
+  background-color: #6c6e71;
+  transition: 3s;
 }
 footer {
   background-color: #007aff;

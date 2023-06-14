@@ -29,6 +29,10 @@ darkmode.addEventListener("click", () => {
   myproject.style.backgroundColor = "#0f0f0f";
   const h1project = document.querySelector("#project h1");
   h1project.style.color = "#ffff";
+  const buttonproject = document.querySelectorAll("#project a");
+  buttonproject.forEach((tombol) => {
+    tombol.classList.replace("buttonproject", "buttonprojectdark");
+  });
   //contact
   const gelembung3 = document.getElementsByTagName("path")[2];
   gelembung3.removeAttribute("fill");
@@ -37,6 +41,7 @@ darkmode.addEventListener("click", () => {
   contact.style.backgroundColor = "#212529";
   contact.style.color = "#ffff";
   const buttoncontact = document.getElementById("buttoncontact");
+  buttoncontact.classList.replace("buttonlight", "buttondark");
 });
 // lightmode
 const lightmode = document.getElementById("lightmode");
@@ -66,4 +71,15 @@ lightmode.addEventListener("click", () => {
   myproject.style.backgroundColor = "#ffff";
   const h1project = document.querySelector("#project h1");
   h1project.style.color = "#29384e;";
+  // contact
+  const gelembung3 = document.getElementsByTagName("path")[2];
+  gelembung3.removeAttribute("fill");
+  gelembung3.setAttribute("fill", "#f5faff");
+  const contact = document.getElementById("contact");
+  contact.style.backgroundColor = "#f5faff";
+  contact.style.color = "#29384e";
+  const buttonproject = document.querySelectorAll("#project a");
+  buttonproject.forEach((tombol) => {
+    tombol.classList.replace("buttonprojectdark", "buttonproject");
+  });
 });
