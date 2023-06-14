@@ -88,6 +88,10 @@ nav .nav-link:hover {
 #project {
   color: #29384e;
 }
+.project {
+  width: 400px;
+}
+
 .buttonproject {
   background-color: #007aff;
   color: #fff;
@@ -151,3 +155,20 @@ footer {
     padding-left: 2rem;
   }
 }
+/* hp */
+@media (max-width: 800px) {
+  .project {
+    width: 350px;
+  }
+}
+/* tablet */
+@media (max-width: 900px) {
+  .project {
+    width: 700px;
+  }
+}
+/* @media (max-width: 1280px) {
+  .project {
+    width: 1000px;
+  }
+} */
