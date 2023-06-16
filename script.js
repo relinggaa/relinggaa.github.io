@@ -88,6 +88,8 @@ lightmode.addEventListener("click", () => {
   buttonproject.forEach((tombol) => {
     tombol.classList.replace("buttonprojectdark", "buttonproject");
   });
+  const gelembung4 = document.getElementsByTagName("path")[3];
+  gelembung4.setAttribute("fill", "#007aff");
   const footer = document.getElementsByTagName("footer")[0];
   footer.style.backgroundColor = "#007aff";
 });
