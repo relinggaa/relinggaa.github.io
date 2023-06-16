@@ -46,16 +46,26 @@
             <a class="nav-link pe-4" href="#about">About Me</a>
             <a class="nav-link pe-4" href="#project">Project</a>
             <a class="nav-link pe-4" href="#contact">Contact</a> 
-            <a class="nav-link pe-4 d-xl-none" href="#contact">Login</a> 
+            <a class="nav-link pe-4 d-xl-none" href="#dropdown"></a> 
+          </div>
+          <!-- mobile dark mode -->
+          <div class="dropdown d-flex d-xl-none" data-bs-theme="light">
+            <button class="login dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+              Theme
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+              <li><a class="dropdown-item"class="lm" id="lightmodemobile" href="#">Light Mode</a></li>
+              <li><a class="dropdown-item" class="dm" id="darkmodemobile" href="#">Dark Mode</a></li>
+            </ul>
           </div>
         </div>
-        <div class="dropdown" data-bs-theme="light">
+        <div class="dropdown d-none d-xl-flex" data-bs-theme="light">
           <button class="login dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
             Theme
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-            <li><a class="dropdown-item"id="lightmode" href="#">Light Mode</a></li>
-            <li><a class="dropdown-item" id="darkmode" href="#">Dark Mode</a></li>
+            <li><a class="dropdown-item"class="lightmode"id="lightmode" href="#">Light Mode</a></li>
+            <li><a class="dropdown-item" class="darkmode" id="darkmode" href="#">Dark Mode</a></li>
           </ul>
         </div>
       </div>
@@ -279,7 +289,7 @@
 <!-- footer -->
 
 
-   <footer class="container-fluid  " >
+   <footer id="footer" class="container-fluid  " >
  
       <!-- mobile -->
       <div class="row justify-content-center d-flex ">

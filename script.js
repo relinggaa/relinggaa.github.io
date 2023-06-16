@@ -42,6 +42,11 @@ darkmode.addEventListener("click", () => {
   contact.style.color = "#ffff";
   const buttoncontact = document.getElementById("buttoncontact");
   buttoncontact.classList.replace("buttonlight", "buttondark");
+  //footer
+  const gelembung4 = document.getElementsByTagName("path")[3];
+  gelembung4.setAttribute("fill", "#0f0f0f");
+  const footer = document.getElementsByTagName("footer")[0];
+  footer.style.backgroundColor = "#0f0f0f";
 });
 // lightmode
 const lightmode = document.getElementById("lightmode");
@@ -63,6 +68,7 @@ lightmode.addEventListener("click", () => {
   gelembung.setAttribute("fill", "#f5faff");
   about.style.backgroundColor = "#f5faff";
   about.style.color = "#29384e";
+
   //   project
   const gelembung2 = document.getElementsByTagName("path")[1];
   gelembung2.removeAttribute("fill");
@@ -82,4 +88,6 @@ lightmode.addEventListener("click", () => {
   buttonproject.forEach((tombol) => {
     tombol.classList.replace("buttonprojectdark", "buttonproject");
   });
+  const footer = document.getElementsByTagName("footer")[0];
+  footer.style.backgroundColor = "#007aff";
 });
