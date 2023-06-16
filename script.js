@@ -33,6 +33,11 @@ darkmode.addEventListener("click", () => {
   buttonproject.forEach((tombol) => {
     tombol.classList.replace("buttonproject", "buttonprojectdark");
   });
+  const card = document.querySelectorAll(".card");
+  card.forEach((project) => {
+    project.classList.add("projectdark");
+  });
+
   //contact
   const gelembung3 = document.getElementsByTagName("path")[2];
   gelembung3.removeAttribute("fill");
@@ -77,6 +82,10 @@ lightmode.addEventListener("click", () => {
   myproject.style.backgroundColor = "#ffff";
   const h1project = document.querySelector("#project h1");
   h1project.style.color = "#29384e;";
+  const card = document.querySelectorAll(".card");
+  card.forEach((project) => {
+    project.classList.remove("projectdark");
+  });
   // contact
   const gelembung3 = document.getElementsByTagName("path")[2];
   gelembung3.removeAttribute("fill");
@@ -92,4 +101,15 @@ lightmode.addEventListener("click", () => {
   gelembung4.setAttribute("fill", "#007aff");
   const footer = document.getElementsByTagName("footer")[0];
   footer.style.backgroundColor = "#007aff";
+});
+
+const buttonhome = document.getElementById("buttonhome");
+buttonhome.addEventListener("click", () => {
+  const navbar = document.getElementsByTagName("nav")[0];
+  navbar.classList.toggle("fixed-top");
+  if (navbar.classList.contains("fixed-top")) {
+    buttonhome.innerHTML = "Sembunyikan Navbar";
+  } else {
+    buttonhome.innerHTML = "Tampilkan Navbar";
+  }
 });

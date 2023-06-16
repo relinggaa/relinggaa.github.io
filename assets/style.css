@@ -7,8 +7,11 @@ body {
 }
 
 /* navbar */
-nav {
+.blue {
   background-color: #007aff;
+}
+nav {
+  backdrop-filter: blur(5px);
 }
 .darknav {
   background-color: #0f0f0f;
@@ -19,10 +22,12 @@ nav .nav-link {
   font-size: 1, 5rem;
   font-weight: 700;
   letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgb(8, 8, 8);
 }
 .navbar-brand {
   color: #ffff;
   font-family: "Nunito Sans", sans-serif;
+  text-shadow: 1px 1px 1px rgb(8, 8, 8);
 }
 nav .nav-link:hover {
   color: #bdcdd6;
@@ -43,7 +48,12 @@ nav .nav-link:hover {
   background-color: #007aff;
   margin-top: -10px;
 }
-
+#home h1 {
+  text-shadow: 1px 1px 1px #0f0f0f;
+}
+#home p {
+  text-shadow: 1px 1px 1px #0f0f0f;
+}
 #gambarhome {
   width: 500px;
   height: 500px;
@@ -87,7 +97,10 @@ nav .nav-link:hover {
 .project {
   width: 400px;
 }
-
+.projectdark {
+  background-color: #212529;
+  color: #ffff;
+}
 .buttonproject {
   background-color: #007aff;
   color: #fff;
@@ -171,14 +184,6 @@ footer {
 }
 
 /* responsive */
-@media (max-width: 767px) {
-  .fixtop {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-}
 @media (max-width: 767px) {
   .padaboutmobile {
     display: flex;
