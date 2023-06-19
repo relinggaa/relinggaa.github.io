@@ -98,6 +98,10 @@ modeterang.forEach((lightmode) => {
     const h1project = document.querySelector("#project h1");
     h1project.style.color = "#29384e;";
     const card = document.querySelectorAll(".card");
+    const buttonproject = document.querySelectorAll("#project a");
+    buttonproject.forEach((tombol) => {
+      tombol.classList.replace("buttonprojectdark", "buttonproject");
+    });
     card.forEach((project) => {
       project.classList.remove("projectdark");
     });
@@ -108,10 +112,9 @@ modeterang.forEach((lightmode) => {
     const contact = document.getElementById("contact");
     contact.style.backgroundColor = "#f5faff";
     contact.style.color = "#29384e";
-    const buttonproject = document.querySelectorAll("#project a");
-    buttonproject.forEach((tombol) => {
-      tombol.classList.replace("buttonprojectdark", "buttonproject");
-    });
+    const buttoncontact = document.getElementById("buttoncontact");
+    buttoncontact.classList.replace("buttondark", "buttonlight");
+
     const gelembung4 = document.getElementsByTagName("path")[3];
     gelembung4.setAttribute("fill", "#007aff");
     const footer = document.getElementsByTagName("footer")[0];
