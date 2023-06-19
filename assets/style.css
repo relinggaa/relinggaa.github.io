@@ -93,6 +93,7 @@ nav .nav-link:hover {
 /* project */
 #project {
   color: #29384e;
+  margin-top: -10px;
 }
 .project {
   width: 400px;
@@ -201,6 +202,11 @@ footer {
 @media (max-width: 900px) {
   .project {
     width: 700px;
+  }
+}
+@media (max-width: 900px) {
+  #contact {
+    margin-top: -60px;
   }
 }
 /* @media (max-width: 1280px) {
