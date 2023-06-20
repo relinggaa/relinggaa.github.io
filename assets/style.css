@@ -62,6 +62,9 @@ nav .nav-link:hover {
   width: 400px;
   height: 400px;
 }
+#p2 {
+  margin-top: -15px;
+}
 .buttonhome {
   background-color: #e68900;
   color: #ffff;
@@ -80,6 +83,7 @@ nav .nav-link:hover {
 .text-about {
   color: #29384e;
 }
+
 #gambarabout {
   width: 100px;
 }
@@ -209,6 +213,7 @@ footer {
     margin-top: -60px;
   }
 }
+
 /* @media (max-width: 1280px) {
   .project {
     width: 1000px;

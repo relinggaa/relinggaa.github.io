@@ -129,11 +129,11 @@ modeterang.forEach((lightmode) => {
 
 const buttonhome = document.getElementById("buttonhome");
 buttonhome.addEventListener("click", () => {
-  const navbar = document.getElementsByTagName("nav")[0];
-  navbar.classList.toggle("fixed-top");
-  if (navbar.classList.contains("fixed-top")) {
-    buttonhome.innerHTML = "Sembunyikan Navbar";
+  const p2 = document.getElementById("p2");
+  p2.toggleAttribute("hidden");
+  if (p2.toggleAttribute(true)) {
+    buttonhome.innerHTML = "Sembunyikan";
   } else {
-    buttonhome.innerHTML = "Tampilkan Navbar";
+    buttonhome.innerHTML = "Lihat Lebih Lanjut";
   }
 });
